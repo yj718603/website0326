@@ -70,5 +70,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'www-mtsite-test'
-          package: ./dist
+          package: '$(System.DefaultWorkingDirectory)/dist'  # 发布路径，通常是 dist 目录
           
