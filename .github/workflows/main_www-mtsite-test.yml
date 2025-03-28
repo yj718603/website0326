@@ -27,6 +27,7 @@ jobs:
         run: |
           npm install
           npx astro add netlify --yes
+          npx astro add node
           npm run build --if-present
           npm run test --if-present
 
