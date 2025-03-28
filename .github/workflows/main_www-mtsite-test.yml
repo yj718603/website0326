@@ -70,4 +70,4 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'www-mtsite-test'
-          package: ./dist          
+          package: .          
