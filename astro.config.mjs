@@ -2,7 +2,9 @@
 import { defineConfig } from 'astro/config';
 //
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  output: 'server'
+});
 //import { defineConfig } from 'astro/config';
 //import node from '@astrojs/node';
 //export default defineConfig({
